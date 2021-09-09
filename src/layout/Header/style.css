@@ -6,3 +6,16 @@ nav {
   justify-content: space-around;
   color:#FDFFFC;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.current {
+  color: black;
+  font-weight: bolder;
+}

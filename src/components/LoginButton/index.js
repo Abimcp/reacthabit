@@ -40,7 +40,7 @@ const LoginButton = () => {
       </Form>
     </div>
   );
-}
+};
 };
 
-export default LoginButton
+export default LoginButton;

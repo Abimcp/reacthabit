@@ -1,12 +1,6 @@
-// import React from 'react';
-// import { Header } from '../../layout';
-// import { Footer } from '../..layout';
+import React from 'react';
 
-// const  = () => {
-//     return (
-//         <Header />
-//         <Footer />
-//     );
-// }
+const Home = () => 
+<h1>Welcome</h1>;
 
-// export default index;
+export default Home;

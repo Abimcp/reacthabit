@@ -11,10 +11,18 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Route exact path="/"><Home /></Route>
-        <Route path="/login"><Login /></Route>
-        <Route path="/register"><Register /></Route>
-        <Route path="/stats"><Statistics /></Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path="/register">
+          <Register />
+        </Route>
+        <Route path="/stats">
+          <Statistics />
+        </Route>
       </Switch>
       <Footer />
     </>
